@@ -1,0 +1,8 @@
+PEMASANGAN DI HOSTING (cPanel, PHP 8+ & MySQL)
+1. cPanel > MySQL Databases: buat database + user, beri semua hak akses.
+2. phpMyAdmin > pilih database > Import > pilih database.sql
+3. Edit config.php (nama database, user, password).
+4. File Manager > public_html > upload semua file (atau ekstrak zip).
+5. Buka alamat website > Masuk. Akun awal: admin / admin123
+6. LANGSUNG ganti kata sandi di menu Akun. Hapus 2 berita contoh jika perlu.
+Tingkat akses: Admin (semua+akun), Ketua RW & RT (kelola warga & berita; hanya Admin/RW boleh hapus warga), Warga (lihat berita & data sendiri).
